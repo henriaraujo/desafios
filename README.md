@@ -1,32 +1,25 @@
-# Desafios IDwall
+# CHALLENGES
+Para executar os desafios (os .jar) basta ter a JRE 11 instalada na máquina.
+(EXECUTAR OS ARQUIVOS DA RAIZ DO PROJETO)
 
-Aqui estão os desafios para a primeira fase de testes de candidatos da IDwall.
-Escolha em qual linguagem irá implementar (a não ser que um de nossos colaboradores lhe instrua a utilizar uma linguagem específica).
+ <br />
 
-Não há diferença de testes para diferentes níveis de profissionais, porém o teste será avaliado com diferentes critérios, dependendo do perfil da vaga.
+# Desafio das Strings
+- Sintaxe: java -jar Strings.jar "texto" tamanhoLimite justificado  <br />
+  Exemplo: java -jar Strings.jar "Este é um texto aleatório" 75 true  <br />
 
-1. [Manipulação de strings](https://github.com/idwall/desafios/tree/master/strings)
-2. [Crawlers](https://github.com/idwall/desafios/tree/master/crawlers)
+<img src=https://raw.githubusercontent.com/henriaraujo/challenges/master/Prints/01.png>
+ <br />
 
-## Como entregar estes desafios
-Você deve forkar este projeto e fazer o *push* no seu próprio repositório e enviar o link para _jobs@idwall.co_ ou para o email do recrutador, junto com seu LinkedIn atualizado.
+# Desafio dos Crawlers
+- Sintaxe: java -jar Crawlers.jar modoDesejado "textoDeBusca" ("textoDeBusca" é utilizado somente no modo "normal")  <br />
+  Exemplo: java -jar Crawlers.jar normal "cats;dogs;brazil" (A saída das trends será um texto printado no terminal)  <br />
+  Exemplo: java -jar bot "cats;dogs;brazil" (Terá que pesquisar no Telegram por "ForIdwallHenrique_bot"e colocar o comando "/nadaparafazer cats;dogs;brazil"). <br />
+  
+<img src=https://raw.githubusercontent.com/henriaraujo/challenges/master/Prints/02.png>
+ <br />  
+<img src=https://raw.githubusercontent.com/henriaraujo/challenges/master/Prints/03.png>
 
-A implementação deve ficar na pasta correspondente ao desafio. Fique à vontade para adicionar qualquer tipo de conteúdo que julgue útil ao projeto, alterar/acrescentar um README com instruções de como executá-lo, etc.
 
-**Obs.**:
-- Você não deve fazer um Pull Request para este projeto!
-- Utilizar as versões mais atuais da linguagem que escolher para desenvolver (JavaScript ES6+; Java 8; Python 3, etc).
 
-### Extras
 
-- Descreva o processo de resolução dos desafios;
-- Descreva como utilizar a sua solução;
-- Tratamento de erros e exceções. Fica a seu critério quais casos deseja tratar e como serão tratados;
-- Testes unitários ou de integração;
-- Use o Docker.
-
-## Carreira IDwall
-
-Caso queira mais detalhes de como trabalhamos, quais são nossos valores e ideais, confira a página [Carreira IDwall](https://idwall.co/carreira) e mesmo que seu perfil não esteja listado nas vagas em aberto, lhe encorajamos a mandar seu CV! Valorizamos bons profissionais sempre e gostamos de manter contato com gente boa.
-
-Boas implementações! 🎉
